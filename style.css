@@ -37,6 +37,7 @@
 
     .pregunta {
       padding: 10px;
+      background: white;
     }
 
     .imagen {
@@ -47,6 +48,14 @@
 
     .btn {
       background: white;
+      width: 60%;
+      max-width: 550px;
+      padding: 10px;
+      margin: 5px;
+      cursor: pointer;
+    }
+    .btnvolver {
+      background: rgb(202, 196, 196);
       width: 60%;
       max-width: 550px;
       padding: 10px;

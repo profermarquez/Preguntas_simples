@@ -185,4 +185,10 @@ function readText(ruta_local) {
   return texto;
 }
 
-function reiniciar(){location.reload();}
+function reiniciar2(){location.reload();}
+
+function volver(){window.location.href = 'http://127.0.0.1:5500/menu.html';}
+
+function ir_preguntas(){window.location.href = 'http://127.0.0.1:5500/preguntas.html';}
+
+function ir_acercade(){window.location.href = 'http://127.0.0.1:5500/acercade.html';}
