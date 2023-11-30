@@ -45,13 +45,13 @@ function escogerPreguntaAleatoria() {
           /* swal.fire({
           title: "Juego finalizado",
           text:
-            "La clave es: Planta",
+            "Ganaste!",
           icon: "success"
         }); */
 
         swal.fire({
           title: "Juego finalizado",
-          text: "Muy bien!, la clave es: Planta",
+          text: "Muy bien!, Ganaste!",
           timer: 3000,
           showConfirmButton: false,
           icon: "success"
@@ -68,7 +68,7 @@ function escogerPreguntaAleatoria() {
         }); */
         swal.fire({
           title: "Juego finalizado",
-          text: "No pudiste responder bien la mayoría pero, te damos igual la clave: Planta",
+          text: "No pudiste responder bien la mayoría, lo siento.",
           timer: 3000,
           showConfirmButton: false,
           icon: "success"
